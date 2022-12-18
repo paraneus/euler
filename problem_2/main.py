@@ -7,19 +7,19 @@ def main():
 a = 0
 b = 1
 result = 1
-totalnum = 0
-totalsum = 0
+total_num = 0
+total_sum = 0
 
 while result < 4000000:
     result = (b + a)
     if result % 2 == 0:
-           totalnum +=1
-           totalsum = totalsum + result
+           total_num +=1
+           total_sum = total_sum + result
 
     a = b
     b = result
 
-print("total num:", totalnum, "total sum:", totalsum)
+print("total num:", total_num, "total sum:", total_sum)
 
 
 
