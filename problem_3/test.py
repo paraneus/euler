@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import math
-from pprint import pprint
 
 n = 600851475143
 
